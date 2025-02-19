@@ -1,16 +1,8 @@
 
-let count = 0;
+let age = 2;
+ let message = age >= 20 ? "you are welcome" : "have some fun yet";
+ console.log(message);
 
-document.getElementById(`increase`).onclick = function () {
-    count++;
-    document.getElementById(`counterLabel`).innerHTML = count;
-}
+ let theMessage = document.getElementById("fun")
 
-document.getElementById(`decrease`).onclick = function() {
-    count--;
-    document.getElementById(`counterLabel`).innerHTML = count;
-}
-document.getElementById(`reset`).onclick = function() {
-    count = 0;
-    document.getElementById(`counterLabel`).innerHTML = count;
-}
+ theMessage.textContent = message;

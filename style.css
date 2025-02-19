@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+#counterLabel {
+    font-size: 60px;
+}
+button {
+    height: 40px;
+    padding: 12px 24px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: aqua;
+}
